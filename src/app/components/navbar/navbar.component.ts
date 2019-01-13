@@ -13,6 +13,6 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit() {
     // properties
-    this.brand = 'Angular Router';
+    this.brand = 'Angular';
   }
 }
