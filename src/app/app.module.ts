@@ -7,6 +7,7 @@ import { HttpClientModule }   from '@angular/common/http';
 
 // components
 import { AppComponent }       from './app.component';
+import { HomeComponent }      from './components/home/home.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 import { NavbarComponent }    from './components/navbar/navbar.component';
 
@@ -14,7 +15,7 @@ import { NavbarComponent }    from './components/navbar/navbar.component';
   // modules
   imports: [ AppRoutingModule, BrowserModule, FormsModule, HttpClientModule ],
   // components
-  declarations: [ AppComponent, JumbotronComponent, NavbarComponent ],
+  declarations: [ AppComponent, HomeComponent, JumbotronComponent, NavbarComponent ],
   // services
   providers: [],
   // bootstrap
